@@ -8,6 +8,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
+@import url("https://fast.fonts.net/t/1.css?apiType=css&projectid=1e1a624a-2337-48af-b26b-e26b035dc187");
 :root {
   --blue: #009ed0;
   --indigo: #6610f2;
@@ -10553,6 +10554,53 @@ a.text-dark:hover, a.text-dark:focus {
 }
 
 @font-face {
+  font-family: "DIN Next Condensed";
+  src: url("https://www.jax.org/_res/css/modules/fonts/6fa09720-5b0e-48a5-8895-5af8af928c01.eot?#iefix");
+  src: url("https://www.jax.org/_res/css/modules/fonts/6fa09720-5b0e-48a5-8895-5af8af928c01.eot?#iefix") format("eot"), url("https://www.jax.org/_res/css/modules/fonts/5dd9f4c4-cfde-415c-bb51-433569311de5.woff2") format("woff2"), url("https://www.jax.org/_res/css/modules/fonts/3b15daf5-d7fb-4099-93b9-db20fd26c2fe.woff") format("woff"), url("https://www.jax.org/_res/css/modules/fonts/16159505-c85d-44ba-ba2b-64f94e68ddb5.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next Condensed";
+  src: url("https://www.jax.org/_res/css/modules/fonts/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix");
+  src: url("https://www.jax.org/_res/css/modules/fonts/0b46a18d-fb34-4ef7-b5da-5902c510577a.eot?#iefix") format("eot"), url("https://www.jax.org/_res/css/modules/fonts/76b8cda6-0ded-4197-acab-e314297eb90f.woff2") format("woff2"), url("https://www.jax.org/_res/css/modules/fonts/2613a064-2962-44af-ae6f-3640e06e8dc4.woff") format("woff"), url("https://www.jax.org/_res/css/modules/fonts/2889b152-497e-4ea3-a90d-02854d136a8d.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("https://www.jax.org/_res/css/modules/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix");
+  src: url("https://www.jax.org/_res/css/modules/fonts/3e0b2cd7-9657-438b-b4af-e04122e8f1f7.eot?#iefix") format("eot"), url("https://www.jax.org/_res/css/modules/fonts/de1216be-00c2-43c0-9c45-3e7f925eb519.woff2") format("woff2"), url("https://www.jax.org/_res/css/modules/fonts/bc176270-17fa-4c78-a343-9fe52824e501.woff") format("woff"), url("https://www.jax.org/_res/css/modules/fonts/3516f91d-ac48-42cd-acfe-1be691152cc4.ttf") format("truetype");
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("https://www.jax.org/_res/css/modules/fonts/extended/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix");
+  src: url("https://www.jax.org/_res/css/modules/fonts/extended/da088ecc-a53c-4831-a95b-6fd81b5b338a.eot?#iefix") format("eot"), url("https://www.jax.org/_res/css/modules/fonts/extended/44e7b0fa-6c8d-43c2-b19e-f1e3ce9ea57c.woff2") format("woff2"), url("https://www.jax.org/_res/css/modules/fonts/extended/c5a7f89e-15b6-49a9-8259-5ea665e72191.woff") format("woff"), url("https://www.jax.org/_res/css/modules/fonts/extended/868c94b5-ca49-46b7-b62b-297f8d861125.ttf") format("truetype");
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "DIN Next";
+  src: url("https://www.jax.org/_res/css/modules/fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix");
+  src: url("https://www.jax.org/_res/css/modules/fonts/324dee78-6585-4c13-8ca3-5817cc600d84.eot?#iefix") format("eot"), url("https://www.jax.org/_res/css/modules/fonts/be607c9f-3c81-41b4-b7ad-17af005c80bb.woff2") format("woff2"), url("https://www.jax.org/_res/css/modules/fonts/4bf0ead4-e61b-4992-832b-6ff05828d99f.woff") format("woff"), url("https://www.jax.org/_res/css/modules/fonts/73713a0b-8f6a-4c4e-b8a8-7cf238e632f6.ttf") format("truetype");
+  font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "WhitmanDisplay";
+  src: url("https://www.jax.org/_res/css/modules/fonts/whitman-display.woff") format("woff");
+  font-weight: normal;
+  font-style: italic;
+}
+
+@font-face {
   font-family: "D DIN";
   src: url("https://www.jax.org/_res/css/modules/fonts/free/d-din-webfont.woff2") format("woff2"), url("https://www.jax.org/_res/css/modules/fonts/free/d-din-webfont.woff") format("woff");
   font-weight: 400;
@@ -10588,7 +10636,6 @@ html {
 
 body {
   line-height: 1.25;
-  text-align: left;
 }
 
 h1, h2, h3 {
